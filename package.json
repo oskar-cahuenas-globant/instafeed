@@ -1,0 +1,34 @@
+{
+  "name": "instafeed_news",
+  "version": "1.0.0",
+  "description": "automation project for Instafeed News requirements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .  --ext .js",
+    "lint-fix": "eslint .  --ext .js --fix",
+    "prettier-check": "npx prettier --check .",
+    "prettier-write": "npx prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oskar-cahuenas-globant/instafeed.git"
+  },
+  "author": "Oskar Cahueñas",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/oskar-cahuenas-globant/instafeed/issues"
+  },
+  "homepage": "https://github.com/oskar-cahuenas-globant/instafeed#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.12",
+    "prettier": "2.3.2"
+  },
+  "dependencies": {},
+  "nodemonConfig": {}
+}
